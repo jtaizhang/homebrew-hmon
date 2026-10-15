@@ -5,6 +5,12 @@ class Hmon < Formula
   sha256 "a87b1b7da23a28e65a45918207e67b5e994542f84ac5af8c32f648df6c935c90"
   license "MIT"
 
+  bottle do
+    root_url "https://github.com/jtaizhang/hmon/releases/download/v0.2.7"
+    rebuild 1
+    sha256 cellar: :any_skip_relocation, arm64_ohos: "8b0a4d1bf1dfcbec7e7f679931bd0952f52328ba7b94846346d4de6c550746ed"
+  end
+
   depends_on arch: :arm64
 
   def install
