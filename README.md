@@ -4,7 +4,7 @@
 这是独立 tap，尚非 Harmony Brew 核心仓库收录。
 
 ```sh
-brew tap jtaizhang/hmon
+brew tap jtaizhang/hmon https://github.com/jtaizhang/homebrew-hmon.git
 brew install jtaizhang/hmon/hmon
 hmon
 ```
