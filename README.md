@@ -19,4 +19,8 @@ brew uninstall hmon
 ```
 
 源码、许可证、功能和采集限制见 [jtaizhang/hmon](https://github.com/jtaizhang/hmon)。
-配方安装已签名的发行包并验证 SHA-256，不下载或执行额外安装脚本。
+配方优先安装已签名的 arm64 OHOS bottle 并验证 SHA-256，普通安装无需本机编译器。
+0.2.7 已在鸿蒙 7.0 PC 上通过 Brew 安装、70 项程序自检和实际采集验证。
+
+`brew test` 属于开发者测试，可能需要额外的 Ruby 测试依赖及编译工具；
+普通用户可运行 `hmon --self-test` 检查已安装程序。
